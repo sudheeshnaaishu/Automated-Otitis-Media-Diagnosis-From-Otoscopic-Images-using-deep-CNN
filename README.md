@@ -1,106 +1,114 @@
-🩺 Automated Otitis Media Diagnosis using Otoscopic Images with Deep CNN
+🩺 Automated Otitis Media Diagnosis with Otoscopic Images Using Deep CNN
 📌 Project Overview
 
-This project focuses on the automatic diagnosis of Otitis Media using otoscopic images and Deep Learning techniques. A Convolutional Neural Network (CNN) model is used to analyze ear images and classify them into different categories such as normal and infected conditions.
+This project presents an intelligent system for the automated diagnosis of otitis media using otoscopic ear images. It leverages a Deep Convolutional Neural Network (CNN) to analyze and classify ear conditions accurately.
 
-The system helps in early detection and supports medical professionals by providing fast and accurate predictions.
+The system helps in early detection of ear infections, reduces dependency on manual diagnosis, and supports healthcare professionals by providing fast and reliable results. It is especially useful in remote or resource-limited settings.
 
-🎯 Objectives
+🚀 Technologies Used
 
-To develop an automated system for detecting Otitis Media
+Python 3.7
 
-To improve diagnostic accuracy using deep learning
-
-To reduce manual effort and time in medical image analysis
-
-To assist healthcare professionals with decision support
-
-🧠 Methodology
-
-Collection of otoscopic image dataset
-
-Image preprocessing (resizing, normalization, noise removal)
-
-Feature extraction using CNN (DenseNet121)
-
-Model training and validation
-
-Performance evaluation based on accuracy and loss
-
-🛠️ Technologies Used
-
-Python
+Deep Learning (CNN)
 
 TensorFlow / Keras
 
 OpenCV
 
-NumPy
+NumPy & Pandas
 
 Matplotlib
 
-📂 Project Structure
-├── dataset/
-├── models/
-├── training/
-├── testing/
-├── results/
-├── app.py
-├── README.md
+Tkinter (GUI Framework)
 
+🔐 Key Features
+
+Automated diagnosis of otitis media from otoscopic images
+
+Deep CNN-based image classification
+
+User-friendly GUI built using Tkinter
+
+Image preprocessing and enhancement
+
+Fast and accurate prediction results
+
+Supports multiple ear condition categories
+
+Lightweight desktop application
+
+⚙️ System Modules
+
+Image Input Module
+
+Upload otoscopic images through GUI
+
+Preprocessing Module
+
+Image resizing, normalization, and enhancement
+
+CNN Model Module
+
+Trained deep learning model for classification
+
+Prediction Module
+
+Displays diagnostic results
+
+GUI Module
+
+Built using Tkinter for easy interaction
+
+▶️ How to Run Project
+
+Clone the repository
+
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+
+Install dependencies
+
+pip install -r requirements.txt
+
+Run the application
+
+python main.py
 📊 Model Details
 
-Model: CNN (DenseNet121 for feature extraction)
+Model Type: Deep Convolutional Neural Network (CNN)
 
-Accuracy: ~96%
+Input: Otoscopic ear images
+
+Output: Ear condition classification (e.g., normal, infected)
 
 Loss Function: Categorical Crossentropy
 
 Optimizer: Adam
 
-🚀 How to Run the Project
-Step 1: Clone the repository
-git clone https://github.com/your-username/your-repo-name.git
-Step 2: Navigate to project folder
-cd your-repo-name
-Step 3: Install dependencies
-pip install -r requirements.txt
-Step 4: Run the application
-python app.py
-📷 Sample Output
+Evaluation Metrics: Accuracy, Precision, Recall
 
-The model predicts whether the ear condition is:
+🎯 Future Enhancements
 
-Normal
+Integration with mobile-based diagnosis systems
 
-Otitis Media
+Use of advanced architectures like ResNet or EfficientNet
 
-⚠️ Limitations
+Real-time video-based ear examination
 
-Requires good quality otoscopic images
+Cloud-based deployment for remote access
 
-Performance depends on dataset size
+Explainable AI for better interpretation of results
 
-May not generalize to all real-world conditions
+👨‍⚕️ Applications
 
-🔮 Future Scope
+Medical diagnosis assistance
 
-Integration with mobile or web applications
+Telemedicine platforms
 
-Real-time diagnosis using live camera
+Rural healthcare support
 
-Use of larger and more diverse datasets
+Clinical research and training
 
-Improvement in model accuracy using advanced architectures
+👤 Author
 
-👩‍💻 Author
-
-Your Sudheeshna Gangula
-
-📚 References
-
-Deep Learning for Medical Image Analysis
-
-Research papers on Otitis Media detection using CNN
-
-TensorFlow & Keras documentation
+Sudheeshna Gangula
